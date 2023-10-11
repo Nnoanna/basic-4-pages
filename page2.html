@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styling.css">
+        <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <title>Salt Mine</title>
+    </head>
+    <body>
+        <div id="header">
+            <header>Wieliczka Salt Mine</header>
+        </div>
+
+        <div id="nav">
+            <a class="nav-links" href="page1.html">Home</a>
+            <a class="nav-links" href="page2.html">Form</a>
+            <a class="nav-links"href="page3.html">Links</a>
+            <a class="nav-links" href="page4.html">Photos</a>
+        </div>
+
+        <div id="content">
+            <form class="form" action="form-handling-url" method="post">
+                <fieldset>
+                    <legend>Already visited?</legend>
+                    <div class="form-ele">
+                        <label for="name">Your name:</label> </br>
+                        <input type="text" id="name" name="your-name">
+                    </div>
+
+                    <div class="form-ele">
+                        <label for="email">Your email:</label> </br>
+                        <input type="email" id="email" name="your-email">
+                    </div>
+
+                    <div class="form-ele">
+                        <strong>Have you already visited the mine?</strong> </br>
+                        <input type="checkbox" id="visited" name="visited-yes">
+                        <label for="visited">Yes, I've already visited the mine</label>
+                    </div>
+
+                    <div class="form-ele">
+                        <label for="opinion">Share your opinion:</label> </br>
+                        <textarea id="opinion" name="your=opinion"></textarea>
+                    </div>
+
+                    <div class="form-ele">
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="footer">
+            <div>
+                <img id="mini-logo" src="mine-logo.png" alt="Wieliczka Salt Mine">
+            </div>
+
+            <div id="sm">
+                <a href="https://www.facebook.com/kopalniawieliczka/?locale=pl_PL" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/wieliczkasaltmine/" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </body>
+</html>
